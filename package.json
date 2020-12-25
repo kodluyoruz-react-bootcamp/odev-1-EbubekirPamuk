@@ -1,0 +1,28 @@
+{
+    "name": "mywork",
+    "version": "1.0.0",
+    "description": "The first homework from Kodluyoruz Bootcamp for fist week.\r This homework has been done by me.",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon src/app.js",
+        "build": "sucrase ./src -d ./dist --transforms imports"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-EbubekirPamuk.git"
+    },
+    "keywords": [],
+    "author": "EbubekirPamuk <Ebubekr53@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-EbubekirPamuk/issues"
+    },
+    "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-EbubekirPamuk#readme",
+    "devDependencies": {
+        "nodeman": "^1.1.2",
+        "sucrase": "^3.16.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
+}
