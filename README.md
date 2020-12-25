@@ -1,4 +1,3 @@
-The first homework from Kodluyoruz Bootcamp for fist week.
-This homework has been done by me.
+The first homework from Kodluyoruz Bootcamp for first week.
 You can visit the .gitignore file for invisible .json files
 
