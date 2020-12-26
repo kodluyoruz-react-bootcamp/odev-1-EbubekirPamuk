@@ -5,7 +5,8 @@
     "main": "app.js",
     "scripts": {
         "dev": "nodemon src/app.js",
-        "build": "sucrase ./src -d ./dist --transforms imports"
+        "build": "sucrase ./src -d ./dist --transforms imports",
+        "start": "node dist/app.js"
     },
     "repository": {
         "type": "git",
